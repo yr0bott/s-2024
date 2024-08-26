@@ -1,0 +1,9 @@
+r = int(input("quantas rotas? "))
+n = 1
+l = list(range(n,r + 1))
+p = list(range(n,t + 1))
+for qr in l:
+    t = float(input("Digite a quantidade de trechos: "))
+    for pp in t:
+        c = float(input("Digite o comprimento do trecho: "))
+        vm = float(input("Digite a velocidade média (km/h) do trecho: "))

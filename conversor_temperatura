@@ -1,0 +1,39 @@
+# Elaborar um programa para converter temperaturas
+# O menu deverá ter as seguintes opções: "no caderno"
+
+#cf = t*1.8 + 32
+#ck = t + 273
+#fk = t + 459.67*5/9
+#kc = t - 273
+v = True
+while v:
+
+    print("1 : De grau celsius para fahrenheit") 
+    print("2 : De grau celsius para kelvin")
+    print("3 : De grau fahrenheit para kelvin")
+    print("4 : De grau kelvin para celsius")
+    print("5 : Fim")
+
+    o = float(input("Digite sua opção de conversão(1,2,3,4,5): "))
+
+    t = int(input("Digite o número da temperatura: "))
+
+    if o == 1:
+        cf = (t * 1.8) + 32
+        print(str(cf))
+
+    elif o == 2:
+        ck = (t + 273)
+        print(str(ck))
+
+    elif o == 3:
+        fk = (t + 459.67*5/9)
+        print(str(fk))
+    elif o == 4:
+        kc = (t - 273)
+        print(str(kc))
+        v = False
+
+
+        
+

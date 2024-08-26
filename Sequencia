@@ -1,0 +1,6 @@
+#
+# Dada sequência de "n" números, imprima o maior
+#
+
+s = float(input("Digite o tamanho da sequência: "))
+numeros_primos = p

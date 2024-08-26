@@ -1,0 +1,14 @@
+#
+# Mostrar todos os números naturais divisíveis por 3 existentes em um intervalo qualquer
+#
+
+i = int(input("Qual o primeiro número do intervalo: "))
+l = int(input("Qual o segundo número do intervalo: "))
+
+k = list(range(i, l))
+
+for t in k:
+    i2 = t % 3
+    if i2 == 0:
+        print(t)
+    

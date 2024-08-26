@@ -1,0 +1,11 @@
+# Imprima o produto dos números divisíveis pelo próximo número par.
+
+i = int(input("Qual o primeiro número do intervalo: "))
+l = int(input("Qual o segundo número do intervalo: "))
+
+k = list(range(i, l))
+
+for t in k:
+    i2 = t % 3
+    if i2 == 0:
+        print(t)

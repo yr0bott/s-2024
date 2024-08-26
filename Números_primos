@@ -1,0 +1,3 @@
+# Dada uma Sequência de "n" números, imprimir o maior.
+
+n = float(input("Quantos números? "))
